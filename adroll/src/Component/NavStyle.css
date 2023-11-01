@@ -1,0 +1,435 @@
+.Menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between ; */
+    height: 566;
+    position: sticky;
+    top:0;
+    z-index: 100;
+} 
+
+#site-logo{
+ font-size: 12px;
+}
+
+#site-logo:hover{
+    cursor: pointer;
+    
+}
+
+/* Button */
+.start-btn{
+    margin-top: 12px;
+}
+
+.btn{
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn1-color{
+    background-color: #8e44ad;
+}
+
+.btn1-color:hover{
+    background-color:#cc66a0;
+}
+
+.btn2-color{
+    background-color:#00aeef;
+}
+
+.btn2-color:hover{
+    background-color: #098396;
+}
+.down-para{
+    /* text-align: center; */
+    background-color:#cc66a0;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-para p a {
+    color: #74c7e4;
+    text-decoration: none;
+}
+
+.down-para p a:hover{
+    color: rgba(0,0, 0, 0.70);
+    text-decoration: underline;
+}
+/* hero Firsr*/
+.hero1{
+    background-color: #ffe8e0;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-hero{
+    margin-left: 50px;
+}
+
+.hero-heading{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    color: #3c4858;
+}
+
+.hero1 p{
+    color: rgb(111, 106, 106);
+    margin: 0;
+}
+
+.hero-btn{
+    margin-top: 40px;
+    gap: 10px; 
+    margin-right: 20px;
+}
+
+
+/* hero Second */
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    align-items: center;
+    margin-left:200px;
+    margin-top: 30px;
+}
+
+.hero-content p{
+    margin: 0;
+}
+
+.hero2-heading{
+ color:#3c4858;
+ font-size: 28px;
+}
+
+.hero2-logo img{
+    padding: 10px;  
+}
+
+.hero2-logo{
+    margin: 0 200px;
+}
+
+
+/* hero 3 */
+
+
+.hero3-content p{
+    margin: 0;
+}
+
+.hero3-content{
+    margin: 10px 0;
+    background-color: #f4f6f9;   
+}
+
+.p-6{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+/* Hero 4 */
+.hero4-container{
+    margin-right: 360px !important;
+}
+
+
+/* hero 5 */
+.hero5-content{
+    margin-left: 350px !important;
+}
+
+/* hero 6 */
+.hero6{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+}
+
+/* Hero 7 */
+.first-card{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    padding: 4rem 0 !important;
+    border: 10px solid #303273;
+    padding:45px 50px !important;
+    margin-bottom: 50px !important;
+}
+
+
+.first-card p span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.first-card h1 span{
+    font-size: 7rem;
+}
+
+
+.right-card p{
+    font-size: 1.2rem;
+}
+.right-card p span{
+    font-size: 1.5rem !important;
+}
+
+/* Hero 8 */
+.certified{
+    display:flex;
+   justify-content: center;
+}
+
+.certified img{
+    margin: 10px 5px;
+}
+
+.last{
+    background-color: #ffe8e0;
+    padding: 7rem;
+    text-align: center;
+}
+
+/* Hero 9 */
+.row div ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(0,0, 0, 0.70)
+}
+
+.row div ul li a:hover{
+    text-decoration: underline;
+}
+
+.row div ul{
+    list-style: none;
+}
+.row{
+    padding: 5rem;
+}
+
+.row div{
+    
+    margin: 0 15px;
+}
+
+
+.Row6 .col1{
+    font-size: 25px;
+}
+
+.Row6 .col1 i{
+    padding: 5px;
+    color: rgba(0,0, 0, 0.70)
+}
+
+.Row6 .col1 .soc-icon i:hover{
+    color:#26a7de ;
+}
+
+.Row6 .col1 .fb i:hover{
+    color: #1877f2;
+}
+.Row6 .col1 .linkedin i:hover{
+    color: #0072b1;
+    
+}
+
+.Row6 .col1 .insta i:hover{
+    color:#d62976;
+}
+
+/* Hero 10 */
+.end{
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f6f9;
+}
+
+.end div ul{
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px 130px;
+}
+
+.end div ul li a:hover{ 
+    text-decoration: underline;
+}
+
+.end div ul li a{
+    text-decoration: none;
+    color: rgba(0,0, 0, 0.70);
+    padding: 10px;
+}
+
+.end div p a{
+    text-decoration: none;
+    color: rgba(0,0, 0, 0.70)
+}
+
+.end div p a:hover{
+    color: #26a7de;
+    text-decoration: underline;
+}
+/* common properties*/
+.d-flex{
+    display:flex;
+}
+
+.align-text{
+    align-items: center;
+}
+
+
+.p-10{
+    padding: 10px;
+}
+
+
+.m-LR{
+    margin: 0 150px;
+}
+
+.m-0{
+    margin:0;
+}
+
+
+.hero-link a{
+    text-decoration: none;
+    color: #cc66a0;
+}
+
+.hero-link a:hover{
+ text-decoration: underline 2px  #cc66a0;
+}
+
+
+.hero h1, p{
+    margin:0
+}
+
+.hero h1{
+    color:#3c4858;
+    font-size: 28px;
+    margin:0;
+}
+
+.js-spacebetween {
+    justify-content: space-between !important;
+}
+
+/**************************************************************************/
+
+.dropdown{
+    width: 100px;
+    position: relative;
+    user-select: none;
+    
+}
+
+.dropdown .dropdown-content{
+    position: absolute;
+    top: 100%;
+    background-color: #f4f4f4;
+    width: 170px;
+    height: 150px;
+    
+}
+
+.dropdown-item{
+    margin: 19px 16px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.dropdown .dropdown-content b{
+    font-weight: 600;
+}
+
+
+.dropdown .dropdown-content .dropdown-item{
+    cursor:pointer;
+    transition: all 0.2s;
+}
+
+
+.dropdown .dropdown-content .dropdown-item:hover{
+    color: blue;
+   
+}
+
+.opened .dropdown-content{
+    height: 280px;
+    width: 180px;
+}
+
+.dropdown-btn{
+    text-align: center;
+    margin-top: 22px;
+    margin-right: 10px;
+    width: 150px;
+    font-size: 15px
+}
+
+.dropdown-btn:hover{
+    color: #00aeef;
+    cursor: pointer;
+}
+
+.pricing{
+    margin-top: 22px;
+}
+
+.pricing:hover{
+    cursor: pointer;
+    color: #00aeef;
+    text-decoration: underline;
+}
+
+.Clicked .dropdown-content{
+        height: 330px;
+        width: 180px;
+        
+}
+
+.Selected .dropdown-content{
+    height: 450px;
+    width: 200px;
+    
+}
+
+     
+
+.Login{
+    margin-top: 22px;
+}
+        
+ .Login a{
+    text-decoration: none;
+    color: rgba(0,0, 0, 0.70) ;  
+}
+
+
+.Login a:hover{
+    color: #00aeef;
+    margin-bottom: 2px;
+    text-decoration: underline 1px  #00aeef;
+    padding: 0;
+    cursor: pointer;
+}
